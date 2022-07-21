@@ -1,4 +1,7 @@
+// Write a Java program to print the sum of two command line arguments
+
 public class CLA{
+    
     public static void main( String args[] ){
 
         int num1 = Integer.parseInt( args[0] );

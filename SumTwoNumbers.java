@@ -1,3 +1,5 @@
+// Write a Java program to print the sum of two numbers
+
 import java.util.Scanner;
 
 public class SumTwoNumbers{
@@ -11,6 +13,8 @@ public class SumTwoNumbers{
         int num1 = sc.nextInt();
 
         int num2 = sc.nextInt();
+
+        sc.close();
 
         System.out.println( num1 + num2 );
     }

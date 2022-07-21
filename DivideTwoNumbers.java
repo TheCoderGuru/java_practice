@@ -1,3 +1,5 @@
+// Write a Java program to print the division of two numbers
+
 import java.util.Scanner;
 
 public class DivideTwoNumbers{
@@ -12,6 +14,8 @@ public class DivideTwoNumbers{
 
         int num2 = sc.nextInt();
 
+        sc.close();
+        
         System.out.print( num1 / num2 );
     }
 }
